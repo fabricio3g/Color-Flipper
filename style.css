@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
+
+
+.nav_bar {
+ 
+ box-shadow: 0 0 10px 0;
+  
+}
+
+.list-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  list-style: none;
+  
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.title-list {
+  font-weight: 800;
+  width: 25rem;
+  color: dodgerblue;
+  
+}
+
+.list {
+  text-align: center;
+  margin: auto 10px;
+  color: white;
+  width: 5rem;
+  background: dodgerblue;
+  padding: 5px;
+  
+  cursor: pointer;
+}
+
+.list:active{
+    
+    background:rgb(41, 41, 41);
+}
+
+.container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+
+.container h2 {
+
+    background-color: dimgray;
+    color: white;
+    padding:10px;
+    border-radius: .2em;
+    margin: 30px auto;
+}
+
+.container .btn-click {
+  margin: 0 auto 30px auto;
+  width: 10rem;
+  height: 3rem;
+  border: unset;
+  cursor: pointer;
+  outline: none;
+
+}
+.container .btn-click:active {
+  background: dodgerblue;
+  color: white;
+}
+
+#color{
+  background-color: dimgray;
+ 
+  height: 500px;
+}
+.content{
+	height:73vh;
+	
+}
